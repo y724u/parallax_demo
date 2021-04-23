@@ -355,7 +355,6 @@ common
 body {
   color: #707070;
   font-family: "Courier New", "メイリオ", "sans-serif", "Noto Sans JP";
-  max-width: 1280px;
 }
 
 body img {
@@ -514,40 +513,10 @@ body img {
 
 /* ============================================ */
 /* ============================================ */
-.parallax {
-  -webkit-perspective: 1px;
-          perspective: 1px;
-  height: 400px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: relative;
-  font-size: 200%;
-}
-
-.parallax_layer {
+.thumbnail {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 400px 0;
-}
-
-.parallax_layerbase {
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-}
-
-.parallax_layerback {
-  -webkit-transform: translateZ(-1px);
-          transform: translateZ(-1px);
-}
-
-.title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 50%;
+  height: 50%;
 }
 /*# sourceMappingURL=style.css.map */
