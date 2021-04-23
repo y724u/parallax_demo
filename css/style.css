@@ -513,10 +513,19 @@ body img {
 
 /* ============================================ */
 /* ============================================ */
-.thumbnail {
+.demo_1 {
   position: absolute;
   z-index: -1;
   width: 50%;
   height: 50%;
+}
+
+.demo_2 {
+  position: absolute;
+  z-index: -1;
+  top: 300px;
+  right: 0;
+  width: 40%;
+  height: 40%;
 }
 /*# sourceMappingURL=style.css.map */

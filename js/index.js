@@ -2,5 +2,5 @@ var image = document.getElementsByClassName('thumbnail');
 new simpleParallax(image, {
 orientation:'up',
 overflow: true,
-scale: 7
+scale: 5
 });
